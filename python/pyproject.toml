@@ -37,8 +37,6 @@ lint.select = [
 # Rules to ignore
 lint.ignore = [
     "T201", # allow print()
-    "UP006", # keep using typing.List etc.
-    "UP007", # allow Union[X, Y]
     "UP035", # ignore Self type suggestion
     "D417",  # don't require param docs
     "E501",  # ignore line length
